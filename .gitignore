@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dataset — not shipped; downloaded into data/ per the README (keep data/.gitkeep)
+data/content/
+data/*.zip
+
+# Models
+models/*.pt
+
+# Benchmark run outputs (keep results/summary.csv; ignore raw run directories)
+results/benchmark_run_*/
+results/grid/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
