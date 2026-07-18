@@ -19,7 +19,7 @@ class YOLOModel:
 
         if image_array is None:
             raise ValueError(
-                "Could not decode image — unsupported format or corrupt bytes"
+                "Could not decode image: unsupported format or corrupt bytes"
             )
 
         start = time.perf_counter()
